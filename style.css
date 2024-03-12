@@ -1,0 +1,126 @@
+html,body{
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family: "lato", sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: rgb(0, 2, 2);
+}
+
+.ping1{
+    background-image: url(image/1.jpg.jpg);
+    min-height: 100%;
+
+   
+}
+.ping2{
+    background-image: url(image/2.jpg.jpg);
+    min-height: 600px;
+
+   
+}
+.ping3{
+    background-image: url(image/5.jpg.jpg);
+    min-height: 600px;
+
+   
+}
+.ping4{
+    background-image: url(image/jamia1.jpg);
+    min-height: 600px;
+}
+.ping5{
+    background-image: url(image/105.jpg);
+    min-height: 500px;
+}
+.ping1 , .ping2 , .ping3 ,.ping4 ,.ping5{
+
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.ptext{
+    position: absolute;
+    top:50%;
+    width: 100%;
+    text-align: center;
+    color: rgb(179, 48, 48);
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+
+
+
+.text8g{
+    background: black;
+    color: white;
+    padding: 20px;
+}
+.section{
+    padding: 50px 80px;
+    text-align: center;
+   
+}
+.section-light{
+    background-color: rgb(132, 219, 197);
+    color: black;
+}
+.section-dark{
+    background-color: brown;
+    color: pink;
+}
+.section-middle{
+    background-color: beige;
+    color: darkorange;
+}
+.section-cllg{
+    background-color: rgb(205, 243, 139);
+    color: darkred;
+
+}
+.section-lib{
+    background-color:goldenrod;
+    color: darkgreen;
+}
+.container{
+    max-width: 800px;
+    margin:0 auto;
+     margin-top: 0px;
+     margin-right: auto;
+     margin-bottom: 0px;
+     margin-left:auto ;
+
+}
+.Apply_forcourse{
+    max-width: 400px;
+    padding:20px;
+    background-color: aqua;
+    margin:auto;
+    margin-top: 20px;
+    box-shadow: 4px 5px 6px rgba(1, 1, 1, o.1);
+    border-radius: 8px;
+    font-size: 20px;
+}
+.form_container{
+    margin-top: 20px;
+    display: grid;
+    gap: 20px;
+    row-gap: 20px;
+    column-gap: 20px;
+}
+.form_control{
+    display: flex;
+    flex-direction: column;
+}
+.button_contianer{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+
+}
+.button_contianer
